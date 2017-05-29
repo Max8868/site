@@ -236,7 +236,7 @@ strong {
 	position: fixed;
 	width: 150%;
 	height: 150%;
-	background-image:url(../images/bg/parallax-bg.jpg);
+	background-image:url(../images/bg/parallax-bg.jpg); /* (../images/bg/parallax-bg.jpg)*/
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -404,90 +404,102 @@ strong {
   display: table;
   height: 5px;
 }
-.planning, .programming, .developing, .supporting, .marketing {
+.comunicacao, .desing, .negocio, .full, .meau, .branding {
   background: #666;
 }
 .about-heading h1{
   color: #e1e1e1 !important
 }
-.planning {
+.comunicacao {
   width: 90%;
-  -webkit-animation: planning 3s linear;
-  animation: planning 3s linear;
+  -webkit-animation: comunicacao 3s linear;
+  animation: comunicacao 3s linear;
 }
-.programming {
+.desing {
   width: 80%;
-  -webkit-animation: programming 3s linear;
-  animation: programming 3s linear;
+  -webkit-animation: desing 3s linear;
+  animation: desing 3s linear;
+}
+.negocio {
+  width: 70%;
+  -webkit-animation: negocio 3s linear;
+  animation: negocio 3s linear;
+}
+.full {
+  width: 100%;
+  -webkit-animation: full 3s linear;
+  animation: full 3s linear;
+}
+.meau {
+  width: 50%;
+  -webkit-animation: meau 3s linear;
+  animation: meau 3s linear;
+}
+.branding {
+  width: 15%;
+  -webkit-animation: branding 3s linear;
+  animation: branding 3s linear;
 }
 
-.developing {
-  width: 70%;
-  -webkit-animation: developing 3s linear;
-  animation: developing 3s linear;
-}
-.supporting {
-  width: 85%;
-  -webkit-animation: supporting 3s linear;
-  animation: supporting 3s linear;
-}
-.marketing {
-  width: 70%;
-  -webkit-animation: marketing 3s linear;
-  animation: marketing 3s linear;
-}
-
-@-webkit-keyframes planning {
+@-webkit-keyframes comunicacao {
   from { width: 0%; }
   to { width: 90%; }
 }
 
-@keyframes planning {
+@keyframes comunicacao {
   from { width: 0%; }
   to { width: 90%; }
 }
 
-@-webkit-keyframes programming {
+@-webkit-keyframes desing {
   from { width: 0%; }
   to { width: 80%; }
 }
 
-@keyframes programming {
+@keyframes desing {
   from { width: 0%; }
   to { width: 80%; }
 }
 
-
-@-webkit-keyframes developing {
+@-webkit-keyframes negocio {
   from { width: 0%; }
   to { width: 70%; }
 }
 
-@keyframes developing {
+@keyframes negocio {
   from { width: 0%; }
   to { width: 70%; }
 }
 
-@-webkit-keyframes supporting {
+@-webkit-keyframes full {
   from { width: 0%; }
-  to { width: 85%; }
+  to { width: 100%; }
 }
 
-@keyframes supporting {
+@keyframes full {
   from { width: 0%; }
-  to { width: 85%; }
+  to { width: 100%; }
 }
 
-@-webkit-keyframes marketing {
+@-webkit-keyframes meau {
   from { width: 0%; }
-  to { width: 70%; }
+  to { width: 50%; }
 }
 
-@keyframes marketing {
+@keyframes meau {
   from { width: 0%; }
-  to { width: 70%; }
+  to { width: 50%; }
 }
 
+@-webkit-keyframes branding{
+  from {width: 0%}
+  to {width: 15%}
+}
+
+@keyframes branding{
+  from {width: 0%}
+  to {width: 15%}
+}
 .video-section {
 	position:relative;
 }
@@ -525,7 +537,7 @@ iframe {
 .service-icon:focus {
 	color:#000;
 	background:#fff;
-	transition:all 1s;
+	transition:all 1s; /* 1s*/
 	transform:rotate(360deg);
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -543,7 +555,7 @@ iframe {
 }
 .item-service h3:hover,
 .item-service h3:focus {
-	color:#999;
+	color:#000; /*999*/ 
 }
 
 
